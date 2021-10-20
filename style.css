@@ -6,10 +6,8 @@
 
 body{
   background: white;
-
 }
 
-h1, h4{
-  background: white;
+body > *{
   margin: 10px 15px;
 }
