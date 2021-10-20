@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+
+}
+
+h1, h4{
+  background: white;
+  margin: 10px 15px;
+}
