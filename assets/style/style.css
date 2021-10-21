@@ -5,13 +5,17 @@
 }
 
 body{
-  background: white;
+  background: red;
 }
 
 body > *{
-  margin: 10px 15px;
+  margin: 10px 45px;
 }
 
 form > *{
   margin-top: 7px;
+}
+
+th{
+  padding: 5px;
 }
