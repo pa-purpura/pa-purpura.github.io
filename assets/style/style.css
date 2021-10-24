@@ -24,9 +24,22 @@ body{
   background: white;
 }
 
+.header-box{
+  min-height: 8vh; 
+  /* height="96" */
+}
+
+.beta{
+  width: 7em;
+  height: 2em;
+  background: orange;
+  color: white;
+  padding-left: 3px;
+}
+
 .high-box{
   padding: 1em;
-  min-height: 41vh;
+  min-height: 36vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -37,9 +50,11 @@ body{
   margin: 2px;
 }
 
+
+
 .links-box{
   padding: 1em;
-  min-height: 41vh;
+  min-height: 36vh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
