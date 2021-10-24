@@ -15,13 +15,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-
-    <div class="container-fluid header-box">
+    <!-- container-fluid  -->
+    <div class="header-box container-fluid">
       <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-4">
           <div class="beta"><b>beta</b></div>
-          <!-- <img class='beta'src="assets/img/beta_orange.png" alt="beta icon"> -->
-        </div>
       </div>
     </div> 
 
@@ -81,25 +79,51 @@
           </div>
         </div>
 
-        <!-- button modal prova2 -->
+        <!-- button modal Front=end -->
         <div class="col-md-3 d-flex justify-content-center">
           <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova2" data-toggle="tooltip" data-placement="bottom" title="Front-end projects"><i class="fas fa-code fa-3x"></i></a>
         </div>
 
-        <!--1 The Modal prova2 -->
+        <!--1 The Modal Front-end -->
         <div class="modal" id="myModalprova2">
           <div class="modal-dialog">
             <div class="modal-content">
 
               <!-- Modal Header -->
               <div class="modal-header">
-                <h4 class="modal-title">Modal Heading</h4>
+                <h4 class="modal-title">Front-end projects</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
 
               <!-- Modal body -->
+
               <div class="modal-body">
-                Modal 2
+                <div class="card w-95 text-white bg-dark mb-3" >
+                  <div class="card-body">                    
+                    <h5 class="card-title">Cocktail DB</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Jquery </span><span>- html/css/javascript</span></h6>
+                    <hr style=" background: whitesmoke;">
+                    <p class="card-text">
+                      CocktailDB is an Front-end App that exploits an external <a href="https://www.thecocktaildb.com/api.php">endpoint</a>  
+                      to give access to an vast database of cocktails. The user can search cocktail by letter or by name to obtain a wealth of information about.
+                      With this project i show my skills about ajax call, and APi of course.
+                    </p>
+                    <a href="https://github.com/pa-purpura/cocktailDB" target="_blank" class="card-link text-light" data-toggle="tooltip" data-placement="bottom" title="github repository"><i class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                  </div>
+                </div>                
+
+                <div class="card w-95 border-dark mb-3" >
+                  <div class="card-body">                    
+                    <h5 class="card-title">First LP</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> html / css</span></h6>
+                    <hr style=" background: grey;">
+                    <p class="card-text">nothing special... but it's my first landing page :) </p>
+                    <a href="https://github.com/pa-purpura/FirstLP" class="card-link text-dark" target="_blank" data-toggle="tooltip" data-placement="bottom" title="github repository"><i class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
+                    <!-- <a href="#" class="card-link">Another link</a> -->
+                  </div>
+                </div>                
+
               </div>
 
               <!-- Modal footer -->
@@ -162,7 +186,7 @@
               <!-- Modal body -->
               <div class="modal-body">
 
-                <form  class="contact-form d-flex flex-column align-items-center"  action="https://formspree.io/youremail@mail.com"  method="POST">
+                <form  class="contact-form d-flex flex-column align-items-center"  action="https://formspree.io/paolo.purpura@gmail.com"  method="POST">
                   <div class="form-group w-75">
                     <input type="name" class="form-control" placeholder="Name"  name="name"  required/>
                   </div>
