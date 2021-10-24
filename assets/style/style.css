@@ -24,9 +24,9 @@ body{
   background: white;
 }
 
-.header-box{
+/* .header-box{
   min-height: 8vh; 
-}
+} */
 
 .beta{
   width: 7em;
@@ -68,7 +68,7 @@ body{
   width: 12em;
   height: 12em;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   font-size: 65%;
 }
@@ -91,12 +91,12 @@ body{
 }
 
 .social{
-  margin: auto 1em;
+  margin: 1em;
   /* color: whitesmoke; */
   color: black;
 }
 
 .social:hover{
-  /* color: black; */
-  color: whitesmoke;
+  color: grey;
 }
+ 
