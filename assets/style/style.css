@@ -10,13 +10,7 @@
 }
 
 @media (max-width: 768px) {
-  .high-box{
-    padding: 1em;
-    min-height: 22vh;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-  }
+  .high-box{min-height: 15vh;}
 }
 
 
