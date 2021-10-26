@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
     <link rel="icon" href="assets/img/orange.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!-- container-fluid  -->
-    <div class="header-box container-fluid">
+    <div class="header-box container">
       <div class="row">
         <div class="col-md-4">
-          <div class="beta"><b>beta</b></div>
+          <div data-aos="fade-down" data-aos-duration="3000"  class="beta">
+            <b>
+              beta
+            </b>
+        </div>
       </div>
-    </div> 
+    </div>
 
     <div class="container high-box">
       <div class="row">
-        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
-          <h4>Hi, my name is </h4>          
+        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column"  data-aos="zoom-in-down" data-aos-duration="1000" >
+          <h4>Hi, my name is </h4>
           <h2><b>{{ Paolo Purpura }}</b></h2>
         </div>
-        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
-          <h4>and i'm a </h4>          
+        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column"  data-aos="zoom-in-down" data-aos-duration="800">
+          <h4>and i'm a </h4>
           <h2><b>{{ full stack developer }}</b></h2>
         </div>
 
@@ -41,7 +46,8 @@
       <div class="row ">
 
         <!-- button modal Bio -->
-        <div class="col-md-3 d-flex justify-content-center">
+
+        <div class="col-md-3 d-flex justify-content-center" data-aos="flip-down" data-aos-duration="2500" >
           <a  type="button" class="link-card" data-toggle="modal" data-target="#myModalprova1" data-toggle="tooltip" data-placement="bottom" title="About Me">
             <i class="far fa-smile-beam fa-3x"></i>
           </a>
@@ -80,7 +86,7 @@
         </div>
 
         <!-- button modal Front=end -->
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center" data-aos="flip-up" data-aos-duration="2500" >
           <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova2" data-toggle="tooltip" data-placement="bottom" title="Front-end projects"><i class="fas fa-code fa-3x"></i></a>
         </div>
 
@@ -100,22 +106,22 @@
               <div class="modal-body">
 
                 <div class="card w-95 text-white bg-dark mb-3" >
-                  <div class="card-body">                    
+                  <div class="card-body">
                     <h5 class="card-title">Cocktail DB</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Jquery </span><span>- html/css/javascript</span></h6>
                     <hr style=" background: whitesmoke;">
                     <p class="card-text">
-                      CocktailDB is an Front-end App that exploits an external <a href="https://www.thecocktaildb.com/api.php">endpoint</a>  
+                      CocktailDB is an Front-end App that exploits an external <a href="https://www.thecocktaildb.com/api.php">endpoint</a>
                       to give access to an vast database of cocktails. The user can search cocktail by letter or by name to obtain a wealth of information about.
                       With this project i show my skills about ajax call, and APi of course.
                     </p>
                     <a href="https://github.com/pa-purpura/cocktailDB" target="_blank" class="card-link text-light" data-toggle="tooltip" data-placement="bottom" title="github repository"><i class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
                     <!-- <a href="#" class="card-link">Another link</a> -->
                   </div>
-                </div>                
+                </div>
 
                 <div class="card w-95 border-dark mb-3" >
-                  <div class="card-body">                    
+                  <div class="card-body">
                     <h5 class="card-title">First LP</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> html / css</span></h6>
                     <hr style=" background: grey;">
@@ -123,7 +129,7 @@
                     <a href="https://github.com/pa-purpura/FirstLP" class="card-link text-dark" target="_blank" data-toggle="tooltip" data-placement="bottom" title="github repository"><i class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
                     <!-- <a href="#" class="card-link">Another link</a> -->
                   </div>
-                </div>                
+                </div>
 
               </div>
 
@@ -136,12 +142,12 @@
           </div>
         </div>
 
-        <!-- button modal prova3 -->
-        <div class="col-md-3 d-flex justify-content-center">
+        <!-- button modal Back-end -->
+        <div class="col-md-3 d-flex justify-content-center" data-aos="flip-down" data-aos-duration="2500">
           <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova3" data-toggle="tooltip" data-placement="bottom" title="Back-end projects"><i class="fab fa-laravel fa-4x"></i></a>
         </div>
 
-        <!--1 The Modal prova3 -->
+        <!--1 The Modal Back-end -->
         <div class="modal" id="myModalprova3">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -156,7 +162,7 @@
               <div class="modal-body">
 
                 <div class="card w-95 border-dark mb-3" >
-                  <div class="card-body">                    
+                  <div class="card-body">
                     <h5 class="card-title">ToDo App</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Laravel(PhP) - MySql - Docker</span></h6>
                     <hr style=" background: grey;">
@@ -167,9 +173,9 @@
                     <!-- <a href="#" class="card-link">Another link</a> -->
                   </div>
                 </div>
-                
+
                 <div class="card w-95 text-white bg-dark mb-3" >
-                  <div class="card-body">                    
+                  <div class="card-body">
                     <h5 class="card-title">skylabsApp</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Laravel(PhP) - Sqlite - </span></h6>
                     <hr style=" background: whitesmoke;">
@@ -179,7 +185,7 @@
                     <a href="https://github.com/pa-purpura/skylabsApp" target="_blank" class="card-link text-light" data-toggle="tooltip" data-placement="bottom" title="github repository"><i class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
                     <!-- <a href="#" class="card-link">Another link</a> -->
                   </div>
-                </div>      
+                </div>
 
               </div>
 
@@ -193,9 +199,9 @@
         </div>
 
         <!-- button modal Contact -->
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center" data-aos="flip-up" data-aos-duration="2500" >
           <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova4" data-toggle="tooltip" data-placement="bottom" title="Contact Me">
-            <i class="fas fa-pen fa-3x"></i>            
+            <i class="fas fa-pen fa-3x"></i>
           </a>
         </div>
 
@@ -218,13 +224,13 @@
                     <input type="name" class="form-control" placeholder="Name"  name="name"  required/>
                   </div>
                   <div class="form-group w-75">
-                    <input type="email"  class="form-control"  placeholder="Email" name="name" required/>
+                    <input type="email"  class="form-control"  placeholder="Email" name="email" required/>
                   </div>
                   <div class="form-group w-75">
-                    <textarea class="form-control" type="text" placeholder="Message" rows="5" name="name" required></textarea>
+                    <textarea class="form-control" type="text" placeholder="Message" rows="5" name="message" required></textarea>
                   </div>
                   <button type="submit" class="btn btn-submit btn-secondary w-75">Send</button>
-                </form>  
+                </form>
               </div>
 
               <!-- Modal footer -->
@@ -239,30 +245,36 @@
         </div>
       </div>
     </div>
-   
+
     <!-- Footer  -->
 
-    <div class="container-fluid foot-box">
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-center" >         
-
+    <div class="container-fluid foot-box" data-aos="fade-up" data-aos-duration="3000">
+      <div class="row" >
+        <div class="col-md-12 d-flex justify-content-center" >
           <a  href="https://www.linkedin.com/in/paolo-purpura-90629249/" target="_blank" class="social">
             <i class=" fab fa-linkedin fa-2x"></i>
           </a>
           <a  href="https://github.com/pa-purpura" target="_blank" class="social" >
             <i class="fab fa-github-square fa-2x"></i>
-          </a> 
+          </a>
           <a  href="https://www.instagram.com/paolo.purpura/" target="_blank" class="social" >
-            <i class="fab fa-instagram fa-2x"></i>            
-          </a>          
-        </div>       
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-12  mt-1 d-flex justify-content-center">
-          <small>&copy;Copyright 2021</small>
+      <div class="row" >
+        <div class="col-md-12  mt-1 d-flex justify-content-center" >
+          <div >
+            <small>&copy;Copyright 2021</small>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- scripts -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 
   </body>
 </html>
