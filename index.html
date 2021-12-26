@@ -19,7 +19,9 @@
 </head>
 
 <body>
-  <!-- container-fluid  -->
+
+  <!-- header -->
+
   <div class="header-box container">
     <div class="row">
       <div class="col-md-4">
@@ -30,272 +32,270 @@
         </div>
       </div>
     </div>
-
-    <div class="container high-box">
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in-down"
-          data-aos-duration="1000">
-          <h4>Hi, my name is </h4>
-          <h2><b>{{ Paolo Purpura }}</b></h2>
-        </div>
-        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in-down"
-          data-aos-duration="800">
-          <h4>and i'm a </h4>
-          <h2><b>{{ full stack developer }}</b></h2>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- <div class="container messagge-box mt-1">
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in-down"
-          data-aos-duration="800">
-          <p id="modalTitle"></p>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="container links-box">
-      <div class="row ">
-
-        <!-- button modal Bio -->
-
-        <div id="presentation" class="col-md-3 d-flex justify-content-center" data-aos="flip-down"
-          data-aos-duration="2500">
-          <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova1" data-toggle="tooltip"
-            data-placement="bottom" title="About Me">
-            <i id="presentationIcon" class="far fa-smile-beam fa-3x"></i>
-            <h5 id="presentationTitle"></h5>
-          </a>
-        </div>
-
-        <!--1 The Modal Bio -->
-        <div class="modal" id="myModalprova1">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">About Me</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-
-              <!-- Modal body -->
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6 d-flex justify-content-end">
-                    <img src="assets/img/paolo.jpeg" alt="profile thumb" class="img-thumbnail">
-                  </div>
-                  <div class="col-md-6 d-flex justify-content-start">
-                    <p>Dopo diversi anni lavorativi in tutt'altro settore,
-                      ho deciso di riconvertirmi professionalmente, per seguire cio' che amo veramente
-                      ed entrare finalmente nel mondo del IT.
-                      Mi sono quindi messo subito sotto, e dopo tanta pasienza e diverse ore di studio come autodidatta,
-                      sono riuscito a conseguire alcune esperienze lavorative come back-end.
-                      Adesso sono alla ricerca di opportunita' che mi permettano di crescere ed acquisire sempre nuove
-                      competenze.
-                    </p>
-                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos eveniet perferendis porro doloribus molestiae inventore voluptates laboriosam asperiores dignissimos eos unde nulla tenetur quibusdam similique illo nisi, deleniti fugiat!</p> -->
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- button modal Front=end -->
-        <div id="front-end" class="col-md-3 d-flex justify-content-center" data-aos="flip-up" data-aos-duration="2500">
-          <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova2" data-toggle="tooltip"
-            data-placement="bottom" title="Front-end projects">
-            <i id="frontEndIcon" class="fas fa-code fa-3x"></i>
-            <p id="frontEndTitle"></p>
-          </a>
-        </div>
-
-        <!--1 The Modal Front-end -->
-        <div class="modal" id="myModalprova2">
-          <div class="modal-dialog">
-            <div class="modal-content">
-
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">Front-end projects</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-
-              <!-- Modal body -->
-
-              <div class="modal-body">
-
-                <div class="card w-95 text-white bg-dark mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">Cocktail DB</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Jquery </span><span>-
-                        html/css/javascript</span></h6>
-                    <hr style=" background: whitesmoke;">
-                    <p class="card-text">
-                      CocktailDB is an Front-end App that exploits an external <a
-                        href="https://www.thecocktaildb.com/api.php">endpoint</a>
-                      to give access to an vast database of cocktails. The user can search cocktail by letter or by name
-                      to obtain a wealth of information about.
-                      With this project i show my skills about ajax call, and APi of course.
-                    </p>
-                    <a href="https://github.com/pa-purpura/cocktailDB" target="_blank" class="card-link text-light"
-                      data-toggle="tooltip" data-placement="bottom" title="github repository"><i
-                        class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
-                    <!-- <a href="#" class="card-link">Another link</a> -->
-                  </div>
-                </div>
-
-                <div class="card w-95 border-dark mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">First LP</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> html / css</span></h6>
-                    <hr style=" background: grey;">
-                    <p class="card-text">nothing special... but it's my first landing page :) </p>
-                    <a href="https://github.com/pa-purpura/FirstLP" class="card-link text-dark" target="_blank"
-                      data-toggle="tooltip" data-placement="bottom" title="github repository"><i
-                        class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
-                    <!-- <a href="#" class="card-link">Another link</a> -->
-                  </div>
-                </div>
-
-              </div>
-
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- button modal Back-end -->
-        <div id="back-end" class="col-md-3 d-flex justify-content-center" data-aos="flip-down" data-aos-duration="2500">
-          <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova3" data-toggle="tooltip"
-            data-placement="bottom" title="Back-end projects"><i class="fab fa-laravel fa-4x"></i></a>
-        </div>
-
-        <!--1 The Modal Back-end -->
-        <div class="modal" id="myModalprova3">
-          <div class="modal-dialog">
-            <div class="modal-content">
-
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">Back-end Projects</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <div class="card w-95 border-dark mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">ToDo App</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Laravel(PhP) - MySql - Docker</span>
-                    </h6>
-                    <hr style=" background: grey;">
-                    <p class="card-text">
-                      A simple, tested and dockerized, laravel "todoApp", that exposes a minimal (crud) API, endpoints
-                      (response Json).
-                    </p>
-                    <a href="https://github.com/pa-purpura/todoApp" class="card-link text-dark" target="_blank"
-                      data-toggle="tooltip" data-placement="bottom" title="github repository"><i
-                        class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
-                    <!-- <a href="#" class="card-link">Another link</a> -->
-                  </div>
-                </div>
-
-                <div class="card w-95 text-white bg-dark mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">skylabsApp</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Laravel(PhP) - Sqlite - </span></h6>
-                    <hr style=" background: whitesmoke;">
-                    <p class="card-text">
-                      App with Api controller that exposes some statistics thanks a specific queryset. It was a
-                      test_demo for an job interview.
-                    </p>
-                    <a href="https://github.com/pa-purpura/skylabsApp" target="_blank" class="card-link text-light"
-                      data-toggle="tooltip" data-placement="bottom" title="github repository"><i
-                        class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
-                    <!-- <a href="#" class="card-link">Another link</a> -->
-                  </div>
-                </div>
-
-              </div>
-
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- button modal Contact -->
-        <div id="contact" class="col-md-3 d-flex justify-content-center" data-aos="flip-up" data-aos-duration="2500">
-          <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova4" data-toggle="tooltip"
-            data-placement="bottom" title="Contact Me">
-            <i class="fas fa-pen fa-3x"></i>
-          </a>
-        </div>
-
-        <!-- The Modal Contact -->
-        <div class="modal" id="myModalprova4">
-          <div class="modal-dialog">
-            <div class="modal-content">
-
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">Contact Me!</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-
-              <!-- Modal body -->
-              <div class="modal-body">
-
-                <form class="contact-form d-flex flex-column align-items-center"
-                  action="https://formspree.io/f/xzbylbnb" method="POST">
-                  <div class="form-group w-75">
-                    <input type="name" class="form-control" placeholder="Name" name="name" required />
-                  </div>
-                  <div class="form-group w-75">
-                    <input type="email" class="form-control" placeholder="Email" name="email" required />
-                  </div>
-                  <div class="form-group w-75">
-                    <textarea class="form-control" type="text" placeholder="Message" rows="5" name="message"
-                      required></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-submit btn-secondary w-75">Send</button>
-                </form>
-              </div>
-
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-
   </div>
 
+  <!-- high section-->
+
+  <div class="container high-box">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in-down"
+        data-aos-duration="1000">
+        <h4>Hi, my name is </h4>
+        <h2><b>{{ Paolo Purpura }}</b></h2>
+      </div>
+      <div class="col-md-12 d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in-down"
+        data-aos-duration="800">
+        <h4>and i'm a </h4>
+        <h2><b>{{ full stack developer }}</b></h2>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- links section -->
+
+  <div class="container links-box">
+    <div class="row ">
+
+      <!-- button modal Bio -->
+
+      <div id="presentation" class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+        data-aos="flip-down" data-aos-duration="2500">
+        <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova1" data-toggle="tooltip"
+          data-placement="bottom" title="About Me">
+          <i class="far fa-smile-beam fa-3x"></i>
+        </a>
+        <p class="text-center pt-3" id="presentationTitle">About Me</p>
+      </div>
+
+      <!--1 The Modal Bio -->
+      <div class="modal" id="myModalprova1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">About Me</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6 d-flex justify-content-end">
+                  <img src="assets/img/paolo.jpeg" alt="profile thumb" class="img-thumbnail">
+                </div>
+                <div class="col-md-6 d-flex justify-content-start">
+                  <p>Dopo diversi anni lavorativi in tutt'altro settore,
+                    ho deciso di riconvertirmi professionalmente, per seguire cio' che amo veramente
+                    ed entrare finalmente nel mondo del IT.
+                    Mi sono quindi messo subito sotto, e dopo tanta pasienza e diverse ore di studio come autodidatta,
+                    sono riuscito a conseguire alcune esperienze lavorative come back-end.
+                    Adesso sono alla ricerca di opportunita' che mi permettano di crescere ed acquisire sempre nuove
+                    competenze.
+                  </p>
+                  <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos eveniet perferendis porro doloribus molestiae inventore voluptates laboriosam asperiores dignissimos eos unde nulla tenetur quibusdam similique illo nisi, deleniti fugiat!</p> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- button modal Front=end -->
+      <div id="front-end" class="col-md-3 d-flex justify-content-center align-items-center flex-column "
+        data-aos="flip-up" data-aos-duration="2500">
+        <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova2" data-toggle="tooltip"
+          data-placement="bottom" title="Front-end projects">
+          <i id="frontEndIcon" class="fas fa-code fa-3x"></i>
+        </a>
+        <p class="text-center pt-3" id="frontEndTitle">Front-end</p>
+      </div>
+
+      <!--1 The Modal Front-end -->
+      <div class="modal" id="myModalprova2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Front-end projects</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+
+            <div class="modal-body">
+
+              <div class="card w-95 text-white bg-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Cocktail DB</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Jquery </span><span>-
+                      html/css/javascript</span></h6>
+                  <hr style=" background: whitesmoke;">
+                  <p class="card-text">
+                    CocktailDB is an Front-end App that exploits an external <a
+                      href="https://www.thecocktaildb.com/api.php">endpoint</a>
+                    to give access to an vast database of cocktails. The user can search cocktail by letter or by name
+                    to obtain a wealth of information about.
+                    With this project i show my skills about ajax call, and APi of course.
+                  </p>
+                  <a href="https://github.com/pa-purpura/cocktailDB" target="_blank" class="card-link text-light"
+                    data-toggle="tooltip" data-placement="bottom" title="github repository"><i
+                      class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
+                  <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+              </div>
+
+              <div class="card w-95 border-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">First LP</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> html / css</span></h6>
+                  <hr style=" background: grey;">
+                  <p class="card-text">nothing special... but it's my first landing page :) </p>
+                  <a href="https://github.com/pa-purpura/FirstLP" class="card-link text-dark" target="_blank"
+                    data-toggle="tooltip" data-placement="bottom" title="github repository"><i
+                      class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
+                  <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- button modal Back-end -->
+
+      <div id="back-end" class="col-md-3 d-flex justify-content-center align-items-center flex-column"
+        data-aos="flip-down" data-aos-duration="2500">
+        <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova3" data-toggle="tooltip"
+          data-placement="bottom" title="Back-end projects"><i class="fab fa-laravel fa-4x"></i>
+        </a>
+        <p class="text-center pt-3" id="backEndTitle">Back-end</p>
+      </div>
+
+      <!--1 The Modal Back-end -->
+      <div class="modal" id="myModalprova3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Back-end Projects</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+              <div class="card w-95 border-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">ToDo App</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Laravel(PhP) - MySql - Docker</span>
+                  </h6>
+                  <hr style=" background: grey;">
+                  <p class="card-text">
+                    A simple, tested and dockerized, laravel "todoApp", that exposes a minimal (crud) API, endpoints
+                    (response Json).
+                  </p>
+                  <a href="https://github.com/pa-purpura/todoApp" class="card-link text-dark" target="_blank"
+                    data-toggle="tooltip" data-placement="bottom" title="github repository"><i
+                      class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
+                  <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+              </div>
+
+              <div class="card w-95 text-white bg-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">skylabsApp</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Tecnologies:<span> Laravel(PhP) - Sqlite - </span></h6>
+                  <hr style=" background: whitesmoke;">
+                  <p class="card-text">
+                    App with Api controller that exposes some statistics thanks a specific queryset. It was a
+                    test_demo for an job interview.
+                  </p>
+                  <a href="https://github.com/pa-purpura/skylabsApp" target="_blank" class="card-link text-light"
+                    data-toggle="tooltip" data-placement="bottom" title="github repository"><i
+                      class="fab fa-github fa-1x"></i>&nbsp;get the code</a>
+                  <!-- <a href="#" class="card-link">Another link</a> -->
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- button modal Contact -->
+      <div id="contact" class="col-md-3 d-flex justify-content-center  align-items-center flex-column"
+        data-aos="flip-up" data-aos-duration="2500">
+        <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova4" data-toggle="tooltip"
+          data-placement="bottom" title="Contact Me">
+          <i class="fas fa-pen fa-3x"></i>
+        </a>
+        <p class="text-center pt-3" id="contactTitle">Contact</p>
+      </div>
+
+      <!-- The Modal Contact -->
+      <div class="modal" id="myModalprova4">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Contact Me!</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+              <form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/f/xzbylbnb"
+                method="POST">
+                <div class="form-group w-75">
+                  <input type="name" class="form-control" placeholder="Name" name="name" required />
+                </div>
+                <div class="form-group w-75">
+                  <input type="email" class="form-control" placeholder="Email" name="email" required />
+                </div>
+                <div class="form-group w-75">
+                  <textarea class="form-control" type="text" placeholder="Message" rows="5" name="message"
+                    required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit btn-secondary w-75">Send</button>
+              </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <!-- Footer  -->
 
@@ -323,6 +323,7 @@
   </div>
 
   <!-- scripts -->
+
   <script src="assets/script/main.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script> AOS.init();</script>

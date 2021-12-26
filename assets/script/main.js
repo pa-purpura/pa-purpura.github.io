@@ -1,51 +1,64 @@
-// console.log('it works')
 
 // presentation
 
 const presentation = document.getElementById('presentation');
-const presentationIcon = document.getElementById('presentationIcon');
 const presentationTitle = document.getElementById('presentationTitle');
+
+presentationTitle.style.visibility = 'hidden'
 
 
 presentation.onmouseover = function () {
-    presentationIcon.style.visibility = "hidden"
     presentationTitle.style.visibility = 'visible'
-    presentationTitle.innerHTML = 'abaout Me '
 }
 
 presentation.onmouseleave = function () {
-    presentationTitle.innerHTML = ''
-    // presentationTitle.style.visibility = 'hidden'
-    presentationIcon.style.visibility = "visible"
+    presentationTitle.style.visibility = 'hidden'
 }
 
 // front-end
 
 const frontEnd = document.getElementById('front-end');
-const frontEndIcon = document.getElementById('frontEndIcon');
 const frontEndTitle = document.getElementById('frontEndTitle');
+
+frontEndTitle.style.visibility = 'hidden'
 
 
 frontEnd.onmouseover = function () {
-    frontEndIcon.style.visibility = "hidden"
     frontEndTitle.style.visibility = 'visible'
-    frontEndTitle.innerHTML = 'Front End projects'
-
-    console.log('entra')
 }
 
 frontEnd.onmouseleave = function () {
-    frontEndTitle.innerHTML = ''
-    frontEndIcon.style.visibility = "visible"
-    console.log('esce')
-
+    frontEndTitle.style.visibility = 'hidden'
 }
 
+// back-end
+
+const backEnd = document.getElementById('back-end');
+const backEndTitle = document.getElementById('backEndTitle');
+
+backEndTitle.style.visibility = 'hidden'
 
 
-// const BackEndBtn = document.getElementById('back-end');
-// const contactBtn = document.getElementById('contact');
+backEnd.onmouseover = function () {
+    backEndTitle.style.visibility = 'visible'
+}
+
+backEnd.onmouseleave = function () {
+    backEndTitle.style.visibility = 'hidden'
+}
+
+// contact
+
+const contact = document.getElementById('contact');
+const contactTitle = document.getElementById('contactTitle');
+
+contactTitle.style.visibility = 'hidden'
 
 
+contact.onmouseover = function () {
+    contactTitle.style.visibility = 'visible'
+}
 
-// "modalTitle"
+contact.onmouseleave = function () {
+    contactTitle.style.visibility = 'hidden'
+}
