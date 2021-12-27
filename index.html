@@ -58,7 +58,6 @@
     <div class="row ">
 
       <!-- button modal Bio -->
-
       <div id="presentation" class="col-md-3 d-flex flex-column justify-content-center align-items-center"
         data-aos="flip-down" data-aos-duration="2500">
         <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova1" data-toggle="tooltip"
@@ -83,18 +82,46 @@
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-6 d-flex justify-content-end">
-                  <img src="assets/img/paolo.jpeg" alt="profile thumb" class="img-thumbnail">
+                  <img src="assets/img/paolo.jpeg" alt="profile thumb" height="300" class="m-1">
                 </div>
-                <div class="col-md-6 d-flex justify-content-start">
-                  <p>Dopo diversi anni lavorativi in tutt'altro settore,
-                    ho deciso di riconvertirmi professionalmente, per seguire cio' che amo veramente
-                    ed entrare finalmente nel mondo del IT.
-                    Mi sono quindi messo subito sotto, e dopo tanta pasienza e diverse ore di studio come autodidatta,
-                    sono riuscito a conseguire alcune esperienze lavorative come back-end.
-                    Adesso sono alla ricerca di opportunita' che mi permettano di crescere ed acquisire sempre nuove
-                    competenze.
+                <div class="col-md-6 d-flex justify-content-start text-justify">
+                  <p class="m-1">Ormai da due anni alterno formazione, con esperienze lavorative, questo per perseguire
+                    una
+                    riconversione professionale che mi permetta di
+                    lavorare in un settore che ho scelto perché mi appassiona profondamente. Ho appena completato un
+                    corso di 240 ore su React, cosa che mi ha permesso di
+                    aggiungere delle skills di Front-End a quelle già maturate di Back-End. Tutte le mie esperienze
+                    professionali in diversi campi lavoratavi, mi hanno
+                    permesso di acquisire molteplici competenze. L' esperienza maturata come figura commerciale, per più
+                    di 01 anni, mi ha permesso di sviluppare importanti capacità relazionali,
+                    autonomia, predisposizione a lavorare per obiettivi, riservatezza e ovviamente
+                    ottime doti di comunicazione.
+                    Inoltre lavorando spesso in team, ho
+                    sviluppato, nel corso delle mia carriera,
+                    una buona capacità di integrazione nei
+                    gruppi di lavoro e la disponibilità alla
+                    collaborazione, con una buona pro-
+                    attività.Motivato, polivalente ed efficace, penso
+                    di avere tutti gli strumenti per riuscire in
+                    una nuova sfida, dove poter mettere a
+                    profitto le mie competenze e per
+                    continuare un percorso di crescita
+                    professionale, Contribuendo al cotempo
+                    a quello dell'azienda.
+                    Inoltre lavorando spesso in team, ho
+                    sviluppato, nel corso delle mia carriera,
+                    una buona capacità di integrazione nei
+                    gruppi di lavoro e la disponibilità alla
+                    collaborazione, con una buona pro-
+                    attività.
+                    Motivato, polivalente ed efficace, penso
+                    di avere tutti gli strumenti per riuscire in
+                    una nuova sfida, dove poter mettere a
+                    profitto le mie competenze e per
+                    continuare un percorso di crescita
+                    professionale, Contribuendo al cotempo
+                    a quello dell'azienda
                   </p>
-                  <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos eveniet perferendis porro doloribus molestiae inventore voluptates laboriosam asperiores dignissimos eos unde nulla tenetur quibusdam similique illo nisi, deleniti fugiat!</p> -->
                 </div>
               </div>
             </div>
@@ -178,7 +205,6 @@
       </div>
 
       <!-- button modal Back-end -->
-
       <div id="back-end" class="col-md-3 d-flex justify-content-center align-items-center flex-column"
         data-aos="flip-down" data-aos-duration="2500">
         <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova3" data-toggle="tooltip"
@@ -249,40 +275,35 @@
       <div id="contact" class="col-md-3 d-flex justify-content-center  align-items-center flex-column"
         data-aos="flip-up" data-aos-duration="2500">
         <a type="button" class="link-card" data-toggle="modal" data-target="#myModalprova4" data-toggle="tooltip"
-          data-placement="bottom" title="Contact Me">
-          <i class="fas fa-pen fa-3x"></i>
+          data-placement="bottom" title="Download CV">
+          <!-- <i class="fas fa-pen fa-3x"></i> -->
+          <!-- <i clsass="fas fa-file-upload fa-4x"></i> -->
+          <i class="fas fa-tasks fa-3x"></i>
+          <!-- <i class="fas fa-file-download fa-4x"></i> -->
         </a>
-        <p class="text-center pt-3" id="contactTitle">Contact</p>
+        <p class="text-center pt-3" id="contactTitle">CV</p>
       </div>
 
       <!-- The Modal Contact -->
+
       <div class="modal" id="myModalprova4">
         <div class="modal-dialog">
           <div class="modal-content">
 
             <!-- Modal Header -->
             <div class="modal-header">
-              <h4 class="modal-title">Contact Me!</h4>
+              <h4 class="modal-title">CV / Resume</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
 
             <!-- Modal body -->
             <div class="modal-body">
 
-              <form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/f/xzbylbnb"
-                method="POST">
-                <div class="form-group w-75">
-                  <input type="name" class="form-control" placeholder="Name" name="name" required />
-                </div>
-                <div class="form-group w-75">
-                  <input type="email" class="form-control" placeholder="Email" name="email" required />
-                </div>
-                <div class="form-group w-75">
-                  <textarea class="form-control" type="text" placeholder="Message" rows="5" name="message"
-                    required></textarea>
-                </div>
-                <button type="submit" class="btn btn-submit btn-secondary w-75">Send</button>
-              </form>
+              <a href="assets/files/CV_Purpura.pdf" download target="_blank">
+                <i style="color:black" class="far fa-file-pdf fa-4x"></i>
+              </a>
+              <span>click to download</span>
+
             </div>
 
             <!-- Modal footer -->
@@ -301,6 +322,10 @@
 
   <div class="container-fluid foot-box" data-aos="fade-up" data-aos-duration="3000">
     <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <h6>{{ Contact me }}</h6>
+      </div>
+
       <div class="col-md-12 d-flex justify-content-center">
         <a href="https://www.linkedin.com/in/paolo-purpura-90629249/" target="_blank" class="social">
           <i class=" fab fa-linkedin fa-2x"></i>
