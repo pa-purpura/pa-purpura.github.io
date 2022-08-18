@@ -62,3 +62,8 @@ contact.onmouseover = function () {
 contact.onmouseleave = function () {
     contactTitle.style.visibility = 'hidden'
 }
+
+// copyright footer
+
+const year = document.getElementById('current-year')
+year.innerHTML = new Date().getFullYear()
